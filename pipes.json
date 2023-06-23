@@ -1,0 +1,37 @@
+{
+    "pipeline": [
+        {
+            "elem_name": "src",
+            "plugin_name": "videotestsrc",
+            "attributes": [
+                {
+                    "key": "test",
+                    "value": "test"
+                }
+            ],
+            "attach_queue": false
+        },
+        {
+            "elem_name": "videoconverter",
+            "plugin_name": "videoconvert",
+            "attributes": [
+                {
+                    "key": "test",
+                    "value": "test"
+                }
+            ],
+            "attach_queue": false
+        },
+        {
+            "elem_name": "sink",
+            "plugin_name": "xvimagesink",
+            "attributes": [
+                {
+                    "key": "test",
+                    "value": "test"
+                }
+            ],
+            "attach_queue": false
+        }
+    ]
+}
